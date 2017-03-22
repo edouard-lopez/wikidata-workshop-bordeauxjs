@@ -1,0 +1,16 @@
+{
+  "name": "wikidata-sdk",
+  "scripts": {
+    "start": "node --require babel-core/register ./index.js",
+    "test": "ava ./tests.js"
+  },
+  "version": "1.0.0",
+  "description": "wikidata workshop @bordeauxJS",
+  "main": "index.js",
+  "repository": "git@github.com:edouard-lopez/wikidata-workshop-bordeauxjs.git",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "wikidata-sdk": "^4.2.4"
+  }
+}
